@@ -24,12 +24,7 @@ exports.config = {
         'goog:chromeOptions': {
             args: ['--headless', '--disable-gpu'],
         }
-    },
-    {
-        maxInstances: 5,
-        browserName: 'firefox',
-        
-      }],
+    }],
     logLevel: 'info',
     
     baseUrl: 'http://uitestingplayground.com',
