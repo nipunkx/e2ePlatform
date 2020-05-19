@@ -22,7 +22,7 @@ exports.config = {
         maxInstances: 5,
         browserName: 'chrome',
         'goog:chromeOptions': {
-            args: ['--disable-infobars', '--window-size=1920,1440'],
+            args: ['--headless', '--disable-gpu'],
         }
     },
     {
